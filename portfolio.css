@@ -1,0 +1,355 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* background-color: rgb(255, 255, 255); */
+    /* cursor: url(images/cursor.png), auto ; */
+    /* cursor: url('images/cursor.png') , auto; */
+    text-decoration: none;
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.space{
+    height: 70px;
+    width: 100%;
+}
+
+.navbar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+#info:hover{
+    color: rgb(140, 0, 255);
+}
+
+.logo{
+    padding-left: 50px;
+    width: 60%;
+    display: flex;
+}
+
+.photo{
+    padding-bottom:100px;
+}
+.akhil{
+    padding-top: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(130, 16, 223);
+
+}
+
+.info{
+    padding-right: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+#info{
+    padding-right: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+/* ---------------------------------------------------------------------*/
+
+.body{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    width: 50%;
+    padding-left: 80px;
+}
+
+.content{
+    padding-left: 80px;
+    width: 50%;
+
+}
+
+.hello{
+    font-size: x-large;
+}
+
+.namee{
+    color: rgb(150, 11, 185);
+    font-size: 60px;
+}
+
+.designer{
+    font-size: x-large;
+}
+
+.button1{
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    background-color: rgb(150, 11, 185);
+    color: white;
+    
+}
+
+/* ----------------------------------------------- */
+
+.topic{
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.violet{
+    color: rgb(150, 11, 185);
+    font-size: 40px;
+}
+
+
+
+
+.about{
+    height: 55vh;
+    width: 100%;
+    
+    /* background-image: url(images/a4.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(150, 11, 185); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    
+}
+
+.myself{
+    width: 60%;
+    
+}
+.im{
+    /* width: 60%; */
+    padding-left: 70px;
+    padding-right: 80px;
+    color: rgb(31, 31, 31);
+    font-size: large;
+    text-align: justify;
+    /* text-indent: 1%; */
+    text-justify: auto;
+
+}
+.pic{
+    width: 40%;
+    padding-right: 30px;
+    justify-content: left;
+    
+}
+
+.span{
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    
+}
+
+
+
+
+/* ----------------  */
+
+.topic1{
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #topics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* --------------------  */
+
+.projects{
+    height: 600px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.project1{
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .project1:hover{
+    background-color: rgb(150, 11, 185);
+} */
+
+
+
+.project2{
+    padding-right: 70px;
+    padding-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project3{
+    padding-left: 70px;
+    padding-bottom: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project4{
+    padding-right: 70px;
+    padding-bottom: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#topics{
+    padding-top: 10px;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* -------------------------  */
+
+#buttons{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border: 0cap;
+    border-radius: 30px;
+    color: rgb(150, 11, 185) ;
+    background-color: rgb(255, 255, 255) ;
+    
+}
+
+.education{
+    /* background-image: url(images/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.avif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    /* background-color: aqua; */
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    filter: drop-shadow(1px 1px 1px rgb(85, 85, 85));
+    padding-bottom: 250px;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#shadow{
+    filter: drop-shadow(0.5px 0.5px 0.5px rgb(185, 185, 185));
+}
+
+
+
+/* -----------------------  */
+
+.email{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    height: 100px;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ---------hidden code---------------  */
+
+.container{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 30px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #960bb9;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#color{
+    color: rgb(150, 11, 185) ;
+}
+
